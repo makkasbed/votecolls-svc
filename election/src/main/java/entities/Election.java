@@ -25,4 +25,8 @@ public class Election {
     Integer id;
     String name;
     String description;
+    String createdAt;
+    String updatedAt;
+    String status;
+    String userId;
 }
