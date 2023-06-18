@@ -9,7 +9,7 @@ import services.ConstituencyService;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/v1/constituencies")
+@RequestMapping("api/v1/constituencies")
 public class ConstituencyController {
     @Autowired
     ConstituencyService constituencyService;
