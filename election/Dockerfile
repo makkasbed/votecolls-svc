@@ -1,11 +1,13 @@
-FROM eclipse-temurin:17-jdk-focal
+FROM openjdk:18
 
+# Setting up work directory
 WORKDIR /app
 
-COPY .mvn/ .mvn
-COPY mvnw pom.xml ./
-RUN ./mvnw dependency:go-offline
+# Copy the jar file into our app
+COPY ./target/spring-0.0.1-SNAPSHOT.jar /app
 
-COPY src ./src
+# Exposing port 8080
+EXPOSE 8080
 
-CMD ["./mvnw", "spring-boot:run"]
+# Starting the application
+CMD ["java", "-jar", "spring-0.0.1-SNAPSHOT.jar"]
