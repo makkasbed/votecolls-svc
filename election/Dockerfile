@@ -4,10 +4,10 @@ FROM openjdk:18
 WORKDIR /app
 
 # Copy the jar file into our app
-COPY ./target/spring-0.0.1-SNAPSHOT.jar /app
+COPY ./target/election-service-1.0-SNAPSHOT.jar /app
 
-# Exposing port 8080
-EXPOSE 8080
+# Exposing port 81
+EXPOSE 81
 
 # Starting the application
 CMD ["java", "-jar", "spring-0.0.1-SNAPSHOT.jar"]
