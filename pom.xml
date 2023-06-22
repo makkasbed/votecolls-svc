@@ -10,6 +10,7 @@
   <version>1.0-SNAPSHOT</version>
   <modules>
     <module>election</module>
+      <module>results-service</module>
   </modules>
 
   <name>votecolls</name>
