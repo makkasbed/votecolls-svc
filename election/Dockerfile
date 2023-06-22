@@ -1,4 +1,4 @@
-FROM openjdk:18
+FROM amazoncorretto
 
 # Setting up work directory
 WORKDIR /app
