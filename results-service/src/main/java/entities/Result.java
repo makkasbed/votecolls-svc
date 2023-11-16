@@ -30,7 +30,7 @@ public class Result {
     String createdAt;
     //the date the poll was updated
     String updatedAt;
-    //the base64 encoding of the poll
+    //the base64 encoding of the poll pink sheet
     String pinkSheet;
     // the total number of votes
     int totalVotes;
@@ -38,5 +38,7 @@ public class Result {
     int totalValidVotes;
     // total number of rejected votes
     int totalRejectedVotes;
+
+    int electionId;
 
 }
