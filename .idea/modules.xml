@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/election/election-service.iml" filepath="$PROJECT_DIR$/election/election-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/results-service/results-service.iml" filepath="$PROJECT_DIR$/results-service/results-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/votecolls.iml" filepath="$PROJECT_DIR$/votecolls.iml" />
     </modules>
   </component>
