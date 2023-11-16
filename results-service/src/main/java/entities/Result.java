@@ -24,5 +24,19 @@ public class Result {
             generator = "result_id_sequence"
     )
     Integer id;
+    //the polling station ID
+    Integer pollingId;
+    //the date the poll was uploaded
+    String createdAt;
+    //the date the poll was updated
+    String updatedAt;
+    //the base64 encoding of the poll
+    String pinkSheet;
+    // the total number of votes
+    int totalVotes;
+    // total number of valid votes cast
+    int totalValidVotes;
+    // total number of rejected votes
+    int totalRejectedVotes;
 
 }
