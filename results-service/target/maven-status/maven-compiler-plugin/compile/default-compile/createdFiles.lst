@@ -1,0 +1,8 @@
+entities/Result$ResultBuilder.class
+ResultsApplication.class
+entities/Result.class
+services/ResultService.class
+entities/ResultDetail$ResultDetailBuilder.class
+repos/ResultsRepo.class
+entities/ResultDetail.class
+controllers/ResultController.class

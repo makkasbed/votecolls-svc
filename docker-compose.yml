@@ -1,4 +1,14 @@
 services:
+  elections-service:
+    container_name: elections-service
+    build:
+      context: /election/.
+
+  results-service:
+    container_name: results-service
+    build:
+      context: /results-service/.
+
   postgres:
     container_name: postgres
     image: postgres

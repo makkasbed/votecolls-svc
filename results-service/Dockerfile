@@ -4,10 +4,10 @@ FROM amazoncorretto
 WORKDIR /app
 
 # Copy the jar file into our app
-COPY ./target/election-service-1.0-SNAPSHOT.jar /app
+COPY ./target/results-service-1.0-SNAPSHOT.jar /app
 
 # Exposing port 81
-EXPOSE 81
+EXPOSE 82
 
 # Starting the application
-CMD ["java", "-jar", "election-service-1.0-SNAPSHOT.jar"]
+CMD ["java", "-jar", "results-service-1.0-SNAPSHOT.jar"]
