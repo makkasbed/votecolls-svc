@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import services.UsersService;
 
 @RestController
-@RequestMapping("/api/v1/users")
+@RequestMapping("api/v1/users")
 public class UsersController {
     @Autowired
     UsersService usersService;
