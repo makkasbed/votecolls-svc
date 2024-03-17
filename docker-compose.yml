@@ -1,14 +1,12 @@
 services:
   elections-service:
     container_name: elections-service
-    build:
-      context: /election/.
-
+    build: /Users/adu/JavaProjects/votecolls/election/Dockerfile
+    image: logiclab/votecolls-elections-svc
   results-service:
     container_name: results-service
-    build:
-      context: /results-service/.
-
+    build: /Users/adu/JavaProjects/votecolls/results-service/Dockerfile
+    image: logiclab/votecolls-results-svc
   postgres:
     container_name: postgres
     image: postgres

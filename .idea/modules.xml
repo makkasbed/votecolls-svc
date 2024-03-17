@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/election/election-service.iml" filepath="$PROJECT_DIR$/election/election-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/results-service/results-service.iml" filepath="$PROJECT_DIR$/results-service/results-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/users-service/users-service.iml" filepath="$PROJECT_DIR$/users-service/users-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/votecolls.iml" filepath="$PROJECT_DIR$/votecolls.iml" />
     </modules>
   </component>

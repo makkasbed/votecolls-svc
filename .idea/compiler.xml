@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="users-service" />
         <module name="results-service" />
         <module name="election-service" />
       </profile>
@@ -13,6 +14,7 @@
     <bytecodeTargetLevel>
       <module name="election-service" target="15" />
       <module name="results-service" target="15" />
+      <module name="users-service" target="15" />
       <module name="votecolls" target="1.7" />
     </bytecodeTargetLevel>
   </component>
